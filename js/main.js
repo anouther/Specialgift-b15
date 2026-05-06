@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('happy mensivee yg ke 7 sayangku!').split('');
+        const titles = ('Can i ask you something… May i be your boyfriend?').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "aku berharap kita bisa barengg' terus ya sayanggg, i'm so glad to know and be your boyfriend🤍 i love you so muchh juta sayaangg🤍";
+            subtitle.innerText = "🤍";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
